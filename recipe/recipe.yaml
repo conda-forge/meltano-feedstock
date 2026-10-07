@@ -1,5 +1,5 @@
 context:
-  version: "4.3.0"
+  version: "4.4.0"
 
 package:
   name: meltano
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/meltano/meltano-${{ version }}.tar.gz
-  sha256: 534526656ba4eb6b6ed55527c63906b953b03ac978e8c4bf31de1f2ec3065c68
+  sha256: d496af19d15c6f6c54db856996f56f67c19290c056a8925dae2dbb502a9b36bd
 
 build:
   noarch: python
